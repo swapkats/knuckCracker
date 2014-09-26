@@ -1,0 +1,96 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/opt/nvm/v0.10.32/bin/node',
+1 verbose cli   '/usr/local/opt/nvm/v0.10.32/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'android' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose node symlink /usr/local/opt/nvm/v0.10.32/bin/node
+5 verbose cache add [ 'android', null ]
+6 verbose cache add name=undefined spec="android" args=["android",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'android',
+7 verbose parsed url   path: 'android',
+7 verbose parsed url   href: 'android' }
+8 silly lockFile e4bbe5b7-android android
+9 verbose lock android /Users/swapnil/.npm/e4bbe5b7-android.lock
+10 silly lockFile e4bbe5b7-android android
+11 silly lockFile e4bbe5b7-android android
+12 verbose addNamed [ 'android', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 0c7aa45d-android android@
+15 verbose lock android@ /Users/swapnil/.npm/0c7aa45d-android.lock
+16 silly addNameRange { name: 'android', range: '*', hasData: false }
+17 verbose request where is /android
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id 2c9999cbe588352d
+20 verbose url raw /android
+21 verbose url resolving [ 'https://registry.npmjs.org/', './android' ]
+22 verbose url resolved https://registry.npmjs.org/android
+23 verbose request where is https://registry.npmjs.org/android
+24 info trying registry request attempt 1 at 20:46:01
+25 http GET https://registry.npmjs.org/android
+26 http 200 https://registry.npmjs.org/android
+27 silly registry.get cb [ 200,
+27 silly registry.get   { date: 'Fri, 26 Sep 2014 15:16:05 GMT',
+27 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 silly registry.get     etag: '"4GUFV5D7O8CW7974GGSGN9716"',
+27 silly registry.get     'content-type': 'application/json',
+27 silly registry.get     'cache-control': 'max-age=60',
+27 silly registry.get     'content-length': '5614',
+27 silly registry.get     'accept-ranges': 'bytes',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     age: '0',
+27 silly registry.get     'x-served-by': 'cache-lax1434-LAX',
+27 silly registry.get     'x-cache': 'MISS',
+27 silly registry.get     'x-cache-hits': '0',
+27 silly registry.get     'x-timer': 'S1411744564.943973,VS0,VE185',
+27 silly registry.get     vary: 'Accept',
+27 silly registry.get     'keep-alive': 'timeout=10, max=50',
+27 silly registry.get     connection: 'Keep-Alive' } ]
+28 silly addNameRange number 2 { name: 'android', range: '*', hasData: true }
+29 silly addNameRange versions [ 'android',
+29 silly addNameRange   [ '0.0.0', '0.0.1', '0.0.6', '0.0.7', '0.0.5-cd' ] ]
+30 verbose addNamed [ 'android', '0.0.7' ]
+31 verbose addNamed [ '0.0.7', '0.0.7' ]
+32 silly lockFile a58b0c1b-android-0-0-7 android@0.0.7
+33 verbose lock android@0.0.7 /Users/swapnil/.npm/a58b0c1b-android-0-0-7.lock
+34 silly lockFile 27db3861-js-org-android-android-0-0-7-tgz https://registry.npmjs.org/android/-/android-0.0.7.tgz
+35 verbose lock https://registry.npmjs.org/android/-/android-0.0.7.tgz /Users/swapnil/.npm/27db3861-js-org-android-android-0-0-7-tgz.lock
+36 verbose addRemoteTarball [ 'https://registry.npmjs.org/android/-/android-0.0.7.tgz',
+36 verbose addRemoteTarball   'c7be841df0340e6bc718fc42a935b14f30c42348' ]
+37 info retry fetch attempt 1 at 20:46:02
+38 verbose fetch to= /var/folders/kr/59m5z40x3r391ftv5bynlwrw0000gn/T/npm-45187-mmh8knLM/registry.npmjs.org/android/-/android-0.0.7.tgz
+39 http GET https://registry.npmjs.org/android/-/android-0.0.7.tgz
+40 http 404 https://registry.npmjs.org/android/-/android-0.0.7.tgz
+41 error fetch failed https://registry.npmjs.org/android/-/android-0.0.7.tgz
+42 silly lockFile 27db3861-js-org-android-android-0-0-7-tgz https://registry.npmjs.org/android/-/android-0.0.7.tgz
+43 silly lockFile 27db3861-js-org-android-android-0-0-7-tgz https://registry.npmjs.org/android/-/android-0.0.7.tgz
+44 silly lockFile a58b0c1b-android-0-0-7 android@0.0.7
+45 silly lockFile a58b0c1b-android-0-0-7 android@0.0.7
+46 silly lockFile 0c7aa45d-android android@
+47 silly lockFile 0c7aa45d-android android@
+48 error Error: 404 Not Found
+48 error     at WriteStream.<anonymous> (/usr/local/Cellar/nvm/0.16.1/v0.10.32/lib/node_modules/npm/lib/utils/fetch.js:58:12)
+48 error     at WriteStream.emit (events.js:117:20)
+48 error     at evalmachine.<anonymous>:1609:14
+48 error     at /usr/local/Cellar/nvm/0.16.1/v0.10.32/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:102:5
+48 error     at Object.oncomplete (evalmachine.<anonymous>:107:15)
+49 error If you need help, you may report this *entire* log,
+49 error including the npm and node versions, at:
+49 error     <http://github.com/npm/npm/issues>
+50 error System Darwin 13.4.0
+51 error command "/usr/local/opt/nvm/v0.10.32/bin/node" "/usr/local/opt/nvm/v0.10.32/bin/npm" "install" "-g" "android"
+52 error cwd /Users/swapnil/_code/knuckCracker
+53 error node -v v0.10.32
+54 error npm -v 1.4.28
+55 verbose exit [ 1, true ]
